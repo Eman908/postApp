@@ -13,6 +13,10 @@ class TextfieldPost extends StatelessWidget {
       child: Column(
         children: [
           TextField(
+            style: TextStyle(
+              color: ColorApp.colorWhite,
+              fontSize: SizeApp.s24,
+            ),
             decoration: InputDecoration(
               border: InputBorder.none,
               hintText: StringApp.formHintTitle,
@@ -23,6 +27,11 @@ class TextfieldPost extends StatelessWidget {
             ),
           ),
           TextField(
+            maxLines: 5,
+            style: TextStyle(
+              color: ColorApp.colorWhite,
+              fontSize: SizeApp.s16,
+            ),
             decoration: InputDecoration(
               border: InputBorder.none,
               hintText: StringApp.formHintBody,
