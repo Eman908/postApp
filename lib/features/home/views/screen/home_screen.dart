@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
             cubit: cubit,
           ),
           body: Padding(
-            padding: EdgeInsets.only(top: 130),
+            padding: const EdgeInsets.only(top: 130),
             child: SizedBox(
               width: double.infinity,
               child: bodyText(),

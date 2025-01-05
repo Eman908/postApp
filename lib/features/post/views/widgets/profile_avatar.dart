@@ -13,7 +13,7 @@ class ProfileAvatar extends StatelessWidget {
       child: Row(
         spacing: 12,
         children: [
-          CircleAvatar(
+          const CircleAvatar(
             radius: 26,
             child: CircleAvatar(
               radius: 24,

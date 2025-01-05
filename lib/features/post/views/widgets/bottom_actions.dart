@@ -35,15 +35,15 @@ class BottomActions extends StatelessWidget {
                 Row(
                   spacing: 16,
                   children: [
-                    FaIcon(
+                    const FaIcon(
                       FontAwesomeIcons.solidFaceSmile,
                       color: Color(0xffFFC22E),
                     ),
-                    FaIcon(
+                    const FaIcon(
                       FontAwesomeIcons.solidImage,
                       color: Color(0xff5F95FF),
                     ),
-                    FaIcon(
+                    const FaIcon(
                       FontAwesomeIcons.video,
                       color: Color(0xff20AF0B),
                     ),
@@ -54,7 +54,7 @@ class BottomActions extends StatelessWidget {
                     ),
                   ],
                 ),
-                Spacer(
+                const Spacer(
                   flex: 1,
                 ),
                 MaterialButton(
@@ -70,7 +70,7 @@ class BottomActions extends StatelessWidget {
                         color: ColorApp.colorHintText,
                         size: 20,
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 4,
                       ),
                       Text(
@@ -80,7 +80,7 @@ class BottomActions extends StatelessWidget {
                           fontSize: 16,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 8,
                       ),
                       FaIcon(

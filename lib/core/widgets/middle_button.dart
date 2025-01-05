@@ -8,7 +8,7 @@ BottomNavigationBarItem middleButton(BuildContext context) {
     icon: InkWell(
       onTap: () {
         Navigator.of(context)
-            .push(MaterialPageRoute(builder: (context) => CreatePost()));
+            .push(MaterialPageRoute(builder: (context) => const CreatePost()));
       },
       child: Container(
         width: 56,
